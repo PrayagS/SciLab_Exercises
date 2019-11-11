@@ -1,0 +1,13 @@
+clear;
+clf;
+dn = 1;
+n = -50 : dn : 50;
+k = 1;
+N = 10;
+x = cos(2*%pi*(k/N)*n);
+subplot(211);
+plot2d3(n, x);
+N = 5;
+y = cos(2*%pi*(k/N)*n);
+subplot(212);
+plot2d3(n, y);

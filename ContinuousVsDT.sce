@@ -1,0 +1,14 @@
+clear;
+clf;
+dn = 1;
+dt = 1/25;
+t = -5 : dt : 5;
+n = -5 : dn : 5;
+f = 20;
+fs = 50;
+x = cos(2*%pi*f*t);
+subplot(211);
+plot(t, x);
+y = cos(2*%pi*(2/5)*n);
+subplot(212);
+plot2d3(n, y);
