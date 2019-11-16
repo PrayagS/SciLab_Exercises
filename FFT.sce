@@ -1,4 +1,4 @@
-clear;
+clear; clf; clc;
 
 N = 20;
 n = 0 : N-1;
